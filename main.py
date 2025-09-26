@@ -10,6 +10,7 @@ with open("data.json", "r") as f:
 
 @app.get("/")
 async def read_data():
+    print("Hello")
     return data
 
 
